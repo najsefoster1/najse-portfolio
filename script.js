@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const name = document.getElementById('name').value.trim();
       const email = document.getElementById('email').value.trim();
       const message = document.getElementById('message').value.trim();
-      const mailTo = `mailto:najseofoster@gmail.com?subject=Portfolio%20Contact%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message + '\n\nFrom: ' + name + ' (' + email + ')')}`;
+      const mailTo = `mailto:hireanajsefoster@gmail.com?subject=Portfolio%20Contact%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message + '\n\nFrom: ' + name + ' (' + email + ')')}`;
       window.location.href = mailTo;
     });
   }
