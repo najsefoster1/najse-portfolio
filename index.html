@@ -3,287 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Najse Foster | Business Analyst &amp; AI‑Driven Knowledge Engineer</title>
-    <!-- Global styles -->
+    <title>Najse Foster Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header id="hero" class="hero">
-        <nav class="navbar">
-            <div class="logo">Najse Foster</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#timeline">Timeline</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="hero">
         <div class="hero-content">
-            <div class="availability">Available for opportunities</div>
-            <h1>Hi, I’m <span class="highlight">Najse Foster</span></h1>
-            <h2>Business Analyst &amp; AI‑Driven Knowledge Engineer</h2>
-            <p class="hero-sub">Transforming complex data and systems into actionable insights through <span class="gold">SharePoint</span>, <span class="gold">Power Platform</span> and <span class="gold">Python</span>.</p>
+            <!-- Profile Photo -->
+            <!-- Reference the headshot image directly rather than embedding a base64 blob. The file is located in the project root. -->
+            <img src="profile.jpg" alt="Najse Foster" class="profile-photo" />
+            <h1 class="name">Najse Foster</h1>
+            <h2 class="roles">Knowledge Engineer | SharePoint Developer | Business Analyst</h2>
+            <p class="tagline">Transforming processes, knowledge, and data into efficient digital ecosystems.</p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary">View Projects</a>
-                <a href="NFosterResume_2024.pdf" class="btn secondary" download>Download Resume</a>
-                <a href="#contact" class="btn secondary">Let’s Connect</a>
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#resume" class="btn">Download My Resume</a>
             </div>
+            <div class="social-links">
+                <a href="mailto:hirenajsefoster@outlook.com" class="icon-link">Email</a>
+                <a href="https://linkedin.com/in/najsefoster" target="_blank" class="icon-link">LinkedIn</a>
+                <a href="https://github.com/najsefoster1" target="_blank" class="icon-link">GitHub</a>
+            </div>
+            <button id="modeToggle" class="mode-toggle">Toggle Dark Mode</button>
         </div>
-        <div class="hero-background"></div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="section about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p class="about-text">
-                With over 8 years of experience across Knowledge Management and Business Analytics — from managing
-                <strong>$54M</strong> in IT assets to implementing AI‑based dashboards — I specialize in bridging technical systems
-                with real‑world business goals. I’ve led initiatives migrating more than <strong>100</strong> legacy forms to
-                SharePoint Online, engineered automated solutions saving <strong>37,000+</strong> hours annually, and improved data
-                recovery efficiency by <strong>40%</strong>.
-            </p>
-            <div class="kpi-counters">
-                <div class="kpi-item">
-                    <span class="kpi-number" data-target="40">0</span>
-                    <span class="kpi-label">% Efficiency Boost</span>
-                </div>
-                <div class="kpi-item">
-                    <span class="kpi-number" data-target="100">0</span>
-                    <span class="kpi-label">Forms Migrated</span>
-                </div>
-                <div class="kpi-item">
-                    <span class="kpi-number" data-target="37000">0</span>
-                    <span class="kpi-label">Hours Saved</span>
-                </div>
-            </div>
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Results‑driven Knowledge Management professional with 8+ years of experience in compliance, SharePoint development and data‑driven process improvement. Leveraging a Master’s in Information Systems and Business Analytics (completed August 2025), I specialize in using SharePoint, the Power Platform and automation tools to build efficient, secure, user‑friendly digital solutions.</p>
+        <ul class="highlights">
+            <li>U.S. Air Force veteran (Knowledge Management Supervisor).</li>
+            <li>Lean Six Sigma Green Belt Certified (Credential ID 42c52c9c3a0ca291aaae5ba6e128c0b0).</li>
+            <li>Skilled in SharePoint, Power Automate, SQL, Python and Azure.</li>
+            <li>Experienced in internal auditing, compliance and records management.</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Master of Science, Information Systems &amp; Business Analytics</h3>
+            <p>Park University — Completed August 2025</p>
+            <!-- Display the actual master's diploma image from the project directory -->
+            <img src="ms_diploma_small.jpg" alt="Master's Diploma" class="diploma-image" />
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Science, Computer Information Systems</h3>
+            <p>Park University — 2023</p>
+            <!-- Display the actual bachelor's diploma image from the project directory -->
+            <img src="bs_diploma_small.jpg" alt="Bachelor's Diploma" class="diploma-image" />
+        </div>
+        <div class="education-item">
+            <h3>Associate of Science, Business Administration</h3>
+            <p>Community College of the Air Force — 2020</p>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Lean Six Sigma Green Belt (LSSGB) — Issued August 2018, New Horizons Computer Learning Centers. <a href="https://leansigmacorporation.com/lean-six-sigma-certification-directory/" target="_blank">View Credential</a></li>
+        </ul>
+        <div class="badge-container">
+            <img src="badge.svg" alt="Lean Six Sigma Green Belt Badge" class="badge-image" />
+        </div>
+    </section>
+
+    <!-- Accomplishments Section -->
+    <section id="accomplishments" class="accomplishments-section">
+        <h2>Featured Accomplishments</h2>
+        <div class="accomplishment">
+            <h3>Air Force Knowledge Management Leadership</h3>
+            <ul>
+                <li><span class="counter" data-target="40">0</span>% reduction in document retrieval and audit review times.</li>
+                <li><span class="counter" data-target="30">0</span>% improvement in compliance due to cybersecurity audits.</li>
+                <li><span class="counter" data-target="500">0</span>+ personnel trained in secure data handling and collaboration.</li>
+            </ul>
+        </div>
+        <div class="accomplishment">
+            <h3>Innovation: Passenger Pre‑Check System</h3>
+            <p>Designed the digital pre‑check system that cut passenger wait times by one hour per person, saving <strong>37,000+ hours annually</strong>. See the feature: <a href="https://www.dvidshub.net/news/263560/455-elrs-and-455-ecs-drastically-reduce-check-times-pax-terminal" target="_blank">455 ELRS &amp; 455 ECS Drastically Reduce Check Times at PAX Terminal</a>.</p>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section projects">
-        <div class="container">
-            <h2>Projects &amp; Case Studies</h2>
-            <div class="project-filters">
-                <button class="filter-btn" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="sharepoint">SharePoint</button>
-                <button class="filter-btn" data-filter="analytics">AI + Analytics</button>
-                <button class="filter-btn" data-filter="dashboard">Dashboards</button>
-                <button class="filter-btn" data-filter="power-platform">Power Platform</button>
-                <button class="filter-btn" data-filter="process">Process Improvement</button>
-            </div>
-            <div class="project-grid">
-                <!-- Project Card 1 -->
-                <div class="project-card" data-category="sharepoint process">
-                    <div class="project-content">
-                        <h3>Process Automation Suite</h3>
-                        <p>Created suite of 100+ automated workflows migrating legacy systems to SharePoint Online, saving 37,000+ work hours annually.</p>
-                        <ul class="tags">
-                            <li>Power Automate</li>
-                            <li>SharePoint</li>
-                            <li>Azure Logic Apps</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://github.com/najsefoster1" class="btn small" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 2 -->
-                <div class="project-card" data-category="sharepoint dashboard analytics">
-                    <div class="project-content">
-                        <h3>Asset Management System</h3>
-                        <p>Designed and managed $54M IT asset tracking system with real‑time reporting and automated compliance checks.</p>
-                        <ul class="tags">
-                            <li>SharePoint</li>
-                            <li>Power Apps</li>
-                            <li>Power BI</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://github.com/najsefoster1" class="btn small" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 3 -->
-                <div class="project-card" data-category="process analytics">
-                    <div class="project-content">
-                        <h3>Data Recovery Optimizer</h3>
-                        <p>Engineered automated data recovery solution improving efficiency by 40% and reducing recovery time from hours to minutes.</p>
-                        <ul class="tags">
-                            <li>Python</li>
-                            <li>SQL</li>
-                            <li>Power Automate</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://github.com/najsefoster1" class="btn small" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more projects as needed -->
-            </div>
+    <section id="projects" class="projects-section">
+        <h2>Projects Showcase</h2>
+        <div id="projects-container" class="projects-container">
+            <!-- Project cards will be injected here by script.js -->
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section skills">
-        <div class="container">
-            <h2>Skills &amp; Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-bar">
-                    <span class="skill-name">Business Analytics &amp; AI</span>
-                    <div class="bar-bg"><div class="bar-fill" style="width: 88%"></div></div>
-                    <span class="skill-info">5+ years, 88%</span>
-                </div>
-                <div class="skill-bar">
-                    <span class="skill-name">Power BI &amp; Data Visualization</span>
-                    <div class="bar-bg"><div class="bar-fill" style="width: 90%"></div></div>
-                    <span class="skill-info">6+ years, 90%</span>
-                </div>
-                <div class="skill-bar">
-                    <span class="skill-name">SharePoint / Power Platform</span>
-                    <div class="bar-bg"><div class="bar-fill" style="width: 92%"></div></div>
-                    <span class="skill-info">7+ years, 92%</span>
-                </div>
-                <div class="skill-bar">
-                    <span class="skill-name">Process Optimization</span>
-                    <div class="bar-bg"><div class="bar-fill" style="width: 85%"></div></div>
-                    <span class="skill-info">4+ years, 85%</span>
-                </div>
-                <div class="skill-bar">
-                    <span class="skill-name">Python &amp; SQL</span>
-                    <div class="bar-bg"><div class="bar-fill" style="width: 82%"></div></div>
-                    <span class="skill-info">4+ years, 82%</span>
-                </div>
-            </div>
-            <div class="experience-summary">
-                <div class="summary-item">
-                    <span class="summary-number">8+</span>
-                    <span class="summary-label">Years of Experience</span>
-                </div>
-                <div class="summary-item">
-                    <span class="summary-number">15+</span>
-                    <span class="summary-label">Technologies Mastered</span>
-                </div>
-                <div class="summary-item">
-                    <span class="summary-number">100+</span>
-                    <span class="summary-label">Projects Delivered</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Timeline Section -->
-    <section id="timeline" class="section timeline">
-        <div class="container">
-            <h2>Career Timeline</h2>
-            <div class="timeline-container">
-                <!-- Timeline Item 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon">🏅</div>
-                    <div class="timeline-content">
-                        <h3>United States Air Force</h3>
-                        <span class="timeline-role">Knowledge Management Specialist</span>
-                        <span class="timeline-date">2015–2023</span>
-                        <p>Managed $54M in IT assets, implemented SharePoint solutions, and led process optimization initiatives saving 37,000+ hours annually.</p>
-                        <div class="timeline-tags">
-                            <span>Secret Clearance</span>
-                            <span>Lean Six Sigma Certified</span>
-                            <span>Multiple Awards</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Timeline Item 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon">⚙️</div>
-                    <div class="timeline-content">
-                        <h3>AI Solutions Consultant</h3>
-                        <span class="timeline-role">Process Optimization Specialist</span>
-                        <span class="timeline-date">2021–Present</span>
-                        <p>Delivering AI‑driven business analytics, Power Platform solutions, and knowledge management strategies for enterprise clients.</p>
-                        <div class="timeline-tags">
-                            <span>40% Efficiency Gains</span>
-                            <span>100+ Automation Projects</span>
-                            <span>Enterprise‑Scale Deployments</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Timeline Item 3 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon">🎓</div>
-                    <div class="timeline-content">
-                        <h3>Park University</h3>
-                        <span class="timeline-role">Graduate Student &amp; Researcher</span>
-                        <span class="timeline-date">2021–Present</span>
-                        <p>Pursuing M.S. in Information Systems &amp; Business Analytics while contributing to cutting‑edge AI and data science research.</p>
-                        <div class="timeline-tags">
-                            <span>MS Candidate (Aug 2025)</span>
-                            <span>BS Computer Information Systems</span>
-                            <span>AS Business Administration</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume & Education Section -->
-    <section id="resume" class="section resume">
-        <div class="container">
-            <h2>Resume &amp; Education</h2>
-            <p>You can download my full resume <a href="NFosterResume_2024.pdf" download>here</a>.</p>
-            <div class="education-grid">
-                <div class="education-item">
-                    <h3>M.S. Information Systems &amp; Business Analytics</h3>
-                    <p>Expected August 2025</p>
-                </div>
-                <div class="education-item">
-                    <h3>B.S. Computer Information Systems</h3>
-                    <p>Completed</p>
-                </div>
-                <div class="education-item">
-                    <h3>A.S. Business Administration</h3>
-                    <p>Completed</p>
-                </div>
-            </div>
-            <p class="resume-tagline">Turning data, people, and processes into high‑impact solutions.</p>
-        </div>
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <h2>Resume</h2>
+        <!-- Embed the resume PDF directly. Users can view or download the file. -->
+        <embed src="Master Resume.pdf" type="application/pdf" width="100%" height="800px" />
+        <p><a href="#" id="resumeDownload" class="btn">Download Resume</a></p>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <h2>Get in Touch</h2>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <p><strong>Email:</strong> <a href="mailto:najse.foster@example.com">najse.foster@example.com</a></p>
-                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/najsefoster" target="_blank">linkedin.com/in/najsefoster</a></p>
-                    <p><strong>GitHub:</strong> <a href="https://github.com/najsefoster1" target="_blank">github.com/najsefoster1</a></p>
-                </div>
-                <form class="contact-form" onsubmit="return false;">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-        <footer class="footer">
-            <p>© 2025 Najse Foster | Built with HTML, CSS &amp; JavaScript</p>
-        </footer>
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </section>
 
-    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
