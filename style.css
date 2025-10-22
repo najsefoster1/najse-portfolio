@@ -232,3 +232,135 @@ section h2 {
 .dark section h2 {
     color: #e0e0e0;
 }
+
+/* GPTs section styles */
+.gpts-section {
+  padding: 40px 20px;
+}
+.gpts-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.gpts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.gpt-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.gpt-card:hover {
+  transform: translateY(-5px);
+}
+.gpt-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.gpt-card .tags {
+  margin-bottom: 10px;
+}
+.tag {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #3730a3;
+  border-radius: 12px;
+  padding: 3px 8px;
+  margin-right: 5px;
+  font-size: 0.75rem;
+}
+.gpt-card .btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: #0078d4;
+  color: #fff;
+  text-decoration: none;
+}
+.gpt-card .btn:hover {
+  background: #005fa3;
+}
+
+/* Projects section styles */
+.projects-section {
+  padding: 40px 20px;
+}
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+.project-card .tags {
+  margin-bottom: 10px;
+}
+.project-card .tag {
+  display: inline-block;
+  background: #e2e8f0;
+  color: #1e40af;
+  border-radius: 12px;
+  padding: 3px 8px;
+  margin-right: 5px;
+  font-size: 0.75rem;
+}
+.project-card a {
+  color: #0078d4;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Collapsible education section */
+.education-section {
+  padding: 40px 20px;
+}
+.education-content {
+  display: none;
+}
+.education-content.active {
+  display: block;
+}
+.toggle-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background: #0078d4;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Dark mode styles for new sections */
+.dark .gpt-card,
+.dark .project-card {
+  background: #1f2937;
+  color: #f3f4f6;
+}
+.dark .tag {
+  background: #374151;
+  color: #a5b4fc;
+}
+.dark .project-card a {
+  color: #8ab4f8;
+}
+.dark .gpt-card .btn,
+.dark .toggle-btn {
+  background: #2563eb;
+}
