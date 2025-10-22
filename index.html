@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Najse Foster Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="hero">
         <div class="hero-content">
-            <!-- Profile Photo -->
-            <!-- Reference the headshot image directly rather than embedding a base64 blob. The file is located in the project root. -->
-            <img src="profile.jpg" alt="Najse Foster" class="profile-photo" />
+            <img src="profile.jpg" alt="Najse Foster" class="profile-photo">
             <h1 class="name">Najse Foster</h1>
             <h2 class="roles">Knowledge Engineer | SharePoint Developer | Business Analyst</h2>
             <p class="tagline">Transforming processes, knowledge, and data into efficient digital ecosystems.</p>
@@ -31,99 +29,95 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>Results‑driven Knowledge Management professional with 8+ years of experience in compliance, SharePoint development and data‑driven process improvement. Leveraging a Master’s in Information Systems and Business Analytics (completed August 2025), I specialize in using SharePoint, the Power Platform and automation tools to build efficient, secure, user‑friendly digital solutions.</p>
-        <ul class="highlights">
-            <li>U.S. Air Force veteran (Knowledge Management Supervisor).</li>
-            <li>Lean Six Sigma Green Belt Certified (Credential ID 42c52c9c3a0ca291aaae5ba6e128c0b0).</li>
-            <li>Skilled in SharePoint, Power Automate, SQL, Python and Azure.</li>
-            <li>Experienced in internal auditing, compliance and records management.</li>
-        </ul>
-    </section>
+    <main>
+        <section id="gpts" class="gpts-section">
+            <h2>Featured Custom GPTs</h2>
+            <div class="gpt-container">
+                <div class="gpt-card">
+                    <div class="gpt-icon">📈</div>
+                    <h3>Real Estate Market Analyzer</h3>
+                    <p>Analyze property trends, investment insights, and comparable sales in seconds.</p>
+                    <div class="tags">
+                        <span class="tag">GPT-4</span>
+                        <span class="tag">Real Estate</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                    <a href="https://chatgpt.com/g/g-67bb94cf09108191aca5dcfbaf2a15e5-real-estate-market-analyzer" target="_blank" class="card-link">Launch</a>
+                </div>
+                <div class="gpt-card">
+                    <div class="gpt-icon">📚</div>
+                    <h3>Storybook Assistant</h3>
+                    <p>Generate original children’s stories with characters, morals, and illustrations.</p>
+                    <div class="tags">
+                        <span class="tag">GPT-4</span>
+                        <span class="tag">Creative</span>
+                        <span class="tag">Storytelling</span>
+                    </div>
+                    <a href="https://chatgpt.com/g/g-67b8c10f47688191a6039ab1435fec81-storybook-assistant" target="_blank" class="card-link">Launch</a>
+                </div>
+                <div class="gpt-card">
+                    <div class="gpt-icon">📄</div>
+                    <h3>Resume & Cover Letter Generator</h3>
+                    <p>Create tailored resumes and cover letters aligned to your career goals.</p>
+                    <div class="tags">
+                        <span class="tag">GPT-4</span>
+                        <span class="tag">Career</span>
+                        <span class="tag">Writing</span>
+                    </div>
+                    <a href="https://chatgpt.com/g/g-67c0b8238e1481919457490fed0aa36d-resume-cover-letter-generator" target="_blank" class="card-link">Launch</a>
+                </div>
+            </div>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education" class="education-section">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>Master of Science, Information Systems &amp; Business Analytics</h3>
-            <p>Park University — Completed August 2025</p>
-            <!-- Display the actual master's diploma image from the project directory -->
-            <img src="ms_diploma_small.jpg" alt="Master's Diploma" class="diploma-image" />
-        </div>
-        <div class="education-item">
-            <h3>Bachelor of Science, Computer Information Systems</h3>
-            <p>Park University — 2023</p>
-            <!-- Display the actual bachelor's diploma image from the project directory -->
-            <img src="bs_diploma_small.jpg" alt="Bachelor's Diploma" class="diploma-image" />
-        </div>
-        <div class="education-item">
-            <h3>Associate of Science, Business Administration</h3>
-            <p>Community College of the Air Force — 2020</p>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications-section">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Lean Six Sigma Green Belt (LSSGB) — Issued August 2018, New Horizons Computer Learning Centers. <a href="https://leansigmacorporation.com/lean-six-sigma-certification-directory/" target="_blank">View Credential</a></li>
-        </ul>
-        <div class="badge-container">
-            <img src="badge.svg" alt="Lean Six Sigma Green Belt Badge" class="badge-image" />
-        </div>
-    </section>
-
-    <!-- Accomplishments Section -->
-    <section id="accomplishments" class="accomplishments-section">
-        <h2>Featured Accomplishments</h2>
-        <div class="accomplishment">
-            <h3>Air Force Knowledge Management Leadership</h3>
-            <ul>
-                <li><span class="counter" data-target="40">0</span>% reduction in document retrieval and audit review times.</li>
-                <li><span class="counter" data-target="30">0</span>% improvement in compliance due to cybersecurity audits.</li>
-                <li><span class="counter" data-target="500">0</span>+ personnel trained in secure data handling and collaboration.</li>
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Results-driven Knowledge Management professional with 8+ years of experience in compliance, SharePoint development, and data-driven process improvement. U.S. Air Force veteran turned technologist with a passion for making information accessible and actionable.</p>
+            <ul class="highlights">
+                <li>Lean Six Sigma Green Belt Certified.</li>
+                <li>Skilled in SharePoint, Power Automate, SQL, Python and Azure.</li>
+                <li>Experienced in internal auditing, compliance and records management.</li>
             </ul>
-        </div>
-        <div class="accomplishment">
-            <h3>Innovation: Passenger Pre‑Check System</h3>
-            <p>Designed the digital pre‑check system that cut passenger wait times by one hour per person, saving <strong>37,000+ hours annually</strong>. See the feature: <a href="https://www.dvidshub.net/news/263560/455-elrs-and-455-ecs-drastically-reduce-check-times-pax-terminal" target="_blank">455 ELRS &amp; 455 ECS Drastically Reduce Check Times at PAX Terminal</a>.</p>
-        </div>
-    </section>
+            <button id="toggleEducation" class="toggle-btn">🎓 View Education</button>
+            <div id="educationSection" class="education-section collapsed">
+                <div class="education-item">
+                    <h3>Master of Science, Information Systems & Business Analytics</h3>
+                    <p>Park University – Completed August 2025</p>
+                </div>
+                <div class="education-item">
+                    <h3>Bachelor of Science, Computer Information Systems</h3>
+                    <p>Park University – March 2024</p>
+                </div>
+                <div class="education-item">
+                    <h3>Associate of Science, Business Administration</h3>
+                    <p>Community College of the Air Force</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <h2>Projects Showcase</h2>
-        <div id="projects-container" class="projects-container">
-            <!-- Project cards will be injected here by script.js -->
-        </div>
-    </section>
+        <section id="projects" class="projects-section">
+            <h2>Projects Showcase</h2>
+            <div id="projects-container" class="projects-container"></div>
+        </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section">
-        <h2>Resume</h2>
-        <!-- Embed the resume PDF directly. Users can view or download the file. -->
-        <embed src="Master Resume.pdf" type="application/pdf" width="100%" height="800px" />
-        <p><a href="#" id="resumeDownload" class="btn">Download Resume</a></p>
-    </section>
+        <section id="resume" class="resume-section">
+            <h2>Resume</h2>
+            <embed src="Master Resume.pdf" type="application/pdf" width="100%" height="800px">
+            <p><a href="#" id="resumeDownload" class="btn">Download My Resume</a></p>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2>Contact Me</h2>
-        <form id="contact-form" class="contact-form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form id="contact-form" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
