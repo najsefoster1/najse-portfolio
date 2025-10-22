@@ -1,155 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Najse Foster – Portfolio</title>
+    <!--
+      The stylesheet defines a dark, elegant visual system with gold accents and
+      responsive layouts. See portfolio_site/style.css for details.
+    -->
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="#">Najse</a></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <header class="hero-section">
-      <div class="container">
-        <h1 class="hero-title">Najse Foster</h1>
-        <p class="hero-subtitle">
-          Process‑focused leader specialising in knowledge management and AI
-          strategy. I thrive in fast‑paced environments and love turning
-          complex problems into streamlined solutions.
-        </p>
-        <div class="hero-buttons">
-          <a href="#projects" class="btn">What I’ve built</a>
-          <a href="./Najse_Foster.pdf" target="_blank" class="btn secondary"
-            >Download Resume</a
-          >
+        <div class="container">
+            <img src="public/profile.jpg" alt="Najse Foster" class="hero-photo" />
+            <h1>Hi, I'm <span class="highlight">Najse Foster</span></h1>
+            <p class="hero-subtitle">I design knowledge backbones that scale.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
         </div>
-      </div>
     </header>
 
-    <!-- AI Assistants Section -->
-    <section id="ai-assistants" class="section">
-      <div class="container">
-        <h2>AI Assistants (Custom GPTs)</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Real Estate Market Analyzer</h3>
-            <p>
-              An AI assistant for evaluating market trends, property values and
-              pricing strategy.
-            </p>
-            <p class="tags">
-              <span class="tag">Real Estate</span>
-              <span class="tag">Market Analysis</span>
-              <span class="tag">AI</span>
-            </p>
-            <a
-              href="https://chatgpt.com/g/g-67bb94cf09108191aca5dcfbaf2a15e5-real-estate-market-analyzer"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn link-btn"
-              >Open</a
-            >
-          </div>
-          <div class="card">
-            <h3>Storybook Assistant</h3>
-            <p>
-              Co‑creates custom children’s stories using your character ideas and
-              life lessons.
-            </p>
-            <p class="tags">
-              <span class="tag">Stories</span>
-              <span class="tag">Creativity</span>
-              <span class="tag">AI</span>
-            </p>
-            <a
-              href="https://chatgpt.com/g/g-67b8c10f47688191a6039ab1435fec81-storybook-assistant"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn link-btn"
-              >Open</a
-            >
-          </div>
-          <div class="card">
-            <h3>Resume & Cover Letter Generator</h3>
-            <p>
-              Generates tailored job application materials based on your resume
-              and job description.
-            </p>
-            <p class="tags">
-              <span class="tag">Career</span>
-              <span class="tag">Resume</span>
-              <span class="tag">AI</span>
-            </p>
-            <a
-              href="https://chatgpt.com/g/g-67c0b8238e1481919457490fed0aa36d-resume-cover-letter-generator"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn link-btn"
-              >Open</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- About Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>
-          I’m a knowledge management professional focused on process
-          improvement and AI‑enabled solutions. My background spans strategy,
-          SharePoint governance, Power Platform automation and KPI analytics.
-          I’m always learning and comfortable tackling new challenges in
-          fast‑moving environments.
-        </p>
-        <p>
-          Outside of work I love mentoring others and translating complex
-          problems into streamlined solutions. Continuous improvement and
-          curious exploration drive my work every day.
-        </p>
-        <button id="toggle-education" class="btn toggle-btn">View Education</button>
-        <div id="education-content" class="education-content">
-          <ul>
-            <li>M.S. Information Systems & Business Analytics – Park University (Expected Aug 2025)</li>
-            <li>B.S. Computer Information Systems – Park University (Mar 2024)</li>
-            <li>A.S. Business Administration – CCAF</li>
-          </ul>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                With a background in data analytics, machine learning and SharePoint
+                governance, I turn scattered information into AI‑ready assets and
+                build dashboards that measure real outcomes. My work is grounded in
+                process improvement and thrives on rapid learning in fast‑moving
+                environments. I design knowledge backbones that scale.
+            </p>
         </div>
-      </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section">
-      <div class="container">
-          <h2>What I’ve Built</h2>
-          <div id="projects-container" class="cards projects-container">
-            <!-- Projects will be injected here by script.js -->
-          </div>
-      </div>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div id="projects-container" class="projects-grid">
+                <!-- Project cards will be injected here by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h3>Knowledge Management</h3>
+                    <p>Define governance, taxonomies and workflows so knowledge becomes a living asset.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>AI &amp; SharePoint Governance</h3>
+                    <p>Build metadata models, retention policies and automated flows connecting corpora to AI services.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Machine Learning</h3>
+                    <p>Develop predictive models for churn, maintenance and more using notebooks and Python.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>GPT Prompt Design</h3>
+                    <p>Architect custom assistants for resumes, storytelling, real estate analysis and beyond.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Dashboard Analytics</h3>
+                    <p>Create AI‑linked dashboards tracking ticket deflection, search success and KPI performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2>Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-event">
+                    <h3>United States Air Force</h3>
+                    <span class="date">Cyber Airman – Leadership &amp; Technology</span>
+                    <p>
+                        Served as a cyber specialist, honing leadership and technology skills
+                        while supporting mission‑critical operations.
+                    </p>
+                </div>
+                <div class="timeline-event">
+                    <h3>Park University – BS &amp; MS</h3>
+                    <span class="date">Bachelor's &amp; Master's in Management Information Systems</span>
+                    <p>
+                        Gained a solid foundation in data analytics, systems design and
+                        organizational leadership.
+                    </p>
+                </div>
+                <div class="timeline-event">
+                    <h3>Machine Learning &amp; Data Projects</h3>
+                    <span class="date">Ongoing</span>
+                    <p>
+                        Building predictive maintenance, churn analysis and explainability projects
+                        using Python, Power BI and GPT‑4.
+                    </p>
+                </div>
+                <div class="timeline-event">
+                    <h3>Knowledge &amp; AI Strategy Demo</h3>
+                    <span class="date">Coming Soon</span>
+                    <p>
+                        Launching a live demo showcasing knowledge ingestion, AI‑ready taxonomies,
+                        retrieval‑augmented GPTs and KPI dashboards.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact Me</h2>
-        <form id="contact-form" class="contact-form">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn">Send Message</button>
-        </form>
-      </div>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <input type="email" id="email" placeholder="Your Email" required />
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/najsefoster" target="_blank">LinkedIn</a>
+                <a href="https://github.com/najsefoster1" target="_blank">GitHub</a>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Najse Foster — Built with ♥ using ChatGPT</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
