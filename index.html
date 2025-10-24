@@ -20,6 +20,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#demo">Demo</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="#contact" class="cta-btn">Get in Touch</a>
@@ -29,11 +30,18 @@
     <!-- Hero Section -->
     <header class="hero-section">
         <div class="container">
-            <img src="public/profile.jpg" alt="Najse Foster" class="hero-photo" />
+            <!-- LinkedIn badge replaces profile photo to highlight my professional presence -->
+            <div class="linkedin-badge">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="najsefoster" data-version="v1">
+                    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/najsefoster?trk=profile-badge">Najse F.</a>
+                </div>
+            </div>
             <h1>Hi, I'm <span class="highlight">Najse Foster</span></h1>
             <p class="hero-subtitle">I design knowledge backbones that scale.</p>
             <!-- Added personal tagline to highlight fast‑paced, solution‑oriented mindset -->
             <p class="hero-subtitle secondary-line">I thrive in fast‑paced environments, creating new solutions to simplify complex processes.</p>
+            <!-- Emphasize finding my niche and exploring transitions -->
+            <p class="hero-subtitle tertiary-line">My niche lies at the intersection of knowledge strategy, AI and customer engagement—discovering new ways to unlock human potential.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn">View Projects</a>
                 <a href="#contact" class="btn secondary">Get in Touch</a>
@@ -190,6 +198,16 @@
         </div>
     </section>
 
+    <!-- Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2>Live Demo</h2>
+            <p>Experience my Knowledge &amp; AI Strategy app below. Explore how raw content becomes AI‑ready knowledge with just a few clicks.</p>
+            <!-- Embed Hugging Face Space; using embed parameter to ensure proper display -->
+            <iframe src="https://huggingface.co/spaces/najsefoster/Knowledge-ai-strategy?embed=true" width="100%" height="700" style="border: none; border-radius: 8px; overflow: hidden;" allow="fullscreen"></iframe>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
@@ -225,5 +243,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- LinkedIn badge script -->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </body>
 </html>
