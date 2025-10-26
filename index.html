@@ -179,12 +179,11 @@
 
                     <!-- Education: Master's Degree -->
                     <div class="timeline-event">
-                        <h3>Park University – M.S. Information Systems &amp; Business Analytics</h3>
-                        <span class="date">2025</span>
+                        <h3>Park University – M.S. Information Systems &amp; Business Analytics (Expected)</h3>
+                        <span class="date">Aug 2025</span>
                         <p>
-                            Completed a Master of Science degree concentrating on advanced analytics, AI governance and business strategy. 
-                            Coursework included Business Intelligence, Data Visualization, Machine Learning, SQL, Advanced Excel, Python programming, IT Governance and Decision Science. 
-                            This program built upon my professional experience and deepened my ability to design scalable, data‑driven knowledge solutions.
+                            Pursuing a Master of Science degree focused on advanced analytics, AI governance and business strategy. 
+                            This program builds upon my professional experience and fuels my drive to create scalable knowledge solutions.
                         </p>
                     </div>
 
@@ -207,7 +206,9 @@
             <p>Experience my Knowledge &amp; AI Strategy app below. Explore how raw content becomes AI‑ready knowledge with just a few clicks.</p>
             <!-- Embed Hugging Face Space using Gradio web component.
                  The script loads the Gradio custom element and the gradio-app tag points to the deployed hf.space URL. -->
-            <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/5.49.1/gradio.js"></script>
+            <!-- Embed the Hugging Face Gradio app. Use the version of gradio.js that matches the space (3.33.0).
+                 Without this script the <gradio-app> custom element will not render and the demo will stay on a loading screen. -->
+            <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.33.0/gradio.js"></script>
             <gradio-app src="https://najsefoster-knowledge-ai-strategy.hf.space" style="width: 100%; min-height: 700px; border-radius: 8px;"></gradio-app>
         </div>
     </section>
@@ -224,15 +225,15 @@
             <!-- Contact methods list replaces the form -->
             <div class="contact-methods">
                 <div class="contact-method">
-                    <span>Email:</span>
+                    <span>📧 Email:</span>
                     <a href="mailto:hireanajsefoster@gmail.com">hireanajsefoster@gmail.com</a>
                 </div>
                 <div class="contact-method">
-                    <span>LinkedIn:</span>
+                    <span>🔗 LinkedIn:</span>
                     <a href="https://www.linkedin.com/in/najsefoster" target="_blank">linkedin.com/in/najsefoster</a>
                 </div>
                 <div class="contact-method">
-                    <span>GitHub:</span>
+                    <span>💻 GitHub:</span>
                     <a href="https://github.com/najsefoster1" target="_blank">github.com/najsefoster1</a>
                 </div>
             </div>
