@@ -204,12 +204,14 @@
         <div class="container">
             <h2>Live Demo</h2>
             <p>Experience my Knowledge &amp; AI Strategy app below. Explore how raw content becomes AI‑ready knowledge with just a few clicks.</p>
-            <!-- Embed Hugging Face Space using Gradio web component.
-                 The script loads the Gradio custom element and the gradio-app tag points to the deployed hf.space URL. -->
-            <!-- Embed the Hugging Face Gradio app. Use the version of gradio.js that matches the space (3.33.0).
-                 Without this script the <gradio-app> custom element will not render and the demo will stay on a loading screen. -->
-            <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.33.0/gradio.js"></script>
-            <gradio-app src="https://najsefoster-knowledge-ai-strategy.hf.space" style="width: 100%; min-height: 700px; border-radius: 8px;"></gradio-app>
+            <!-- Embed the Hugging Face app using an iframe.
+                 The iframe approach avoids cross-origin script restrictions on GitHub Pages and ensures the demo loads properly.
+                 See Hugging Face's "Embed this Space" instructions for details. -->
+            <iframe src="https://najsefoster-knowledge-ai-strategy.hf.space"
+                    style="width: 100%; height: 700px; border: none; border-radius: 8px;"
+                    loading="lazy"
+                    allow="clipboard-write; camera; microphone; display-capture"
+                    title="Knowledge &amp; AI Strategy Ingestion Demo"></iframe>
         </div>
     </section>
 
