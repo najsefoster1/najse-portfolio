@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "repo": "operations-kpi-sql-warehouse",
+      "slug": "ops-kpi",
+      "title": "Operations KPI Warehouse",
+      "summary": "Explore core KPIs with simple filters and chart views.",
+      "github": "https://github.com/najsefoster1/operations-kpi-sql-warehouse",
+      "demo": "https://huggingface.co/spaces/najsefoster/ops-kpi"
+    },
+    {
+      "repo": "data-visualization-projects",
+      "slug": "vis-hub",
+      "title": "Data Visualization Hub",
+      "summary": "Interactive examples that turn raw data into decisions.",
+      "github": "https://github.com/najsefoster1/data-visualization-projects",
+      "demo": "https://huggingface.co/spaces/najsefoster/vis-hub"
+    },
+    {
+      "repo": "sales-performance-dashboard",
+      "slug": "sales-perf",
+      "title": "Sales Performance Dashboard",
+      "summary": "Interactive dashboard for analyzing sales metrics and KPIs.",
+      "github": "https://github.com/najsefoster1/sales-performance-dashboard",
+      "demo": "https://huggingface.co/spaces/najsefoster/sales-perf"
+    },
+    {
+      "repo": "business-ml-projects",
+      "slug": "biz-ml",
+      "title": "Business ML Lab",
+      "summary": "Simple regression and classification demos with explainability.",
+      "github": "https://github.com/najsefoster1/business-ml-projects",
+      "demo": "https://huggingface.co/spaces/najsefoster/biz-ml"
+    },
+    {
+      "repo": "business-analytics-projects",
+      "slug": "biz-analytics",
+      "title": "Business Analytics Hub",
+      "summary": "Interactive cluster and factor analysis for customer insights.",
+      "github": "https://github.com/najsefoster1/business-analytics-projects",
+      "demo": "https://huggingface.co/spaces/najsefoster/biz-analytics"
+    }
+  ]
+}
